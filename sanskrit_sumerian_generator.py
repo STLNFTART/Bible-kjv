@@ -97,7 +97,7 @@ class SanskritSumerianLanguage:
 
 
     def generate_phrase(self, target_words: int, semantic_weight: float = 1.0) -> str:
-        """Generate a phrase with multiple words as continuous text"""
+        """Generate a phrase with multiple words separated by spaces"""
         words = []
         for _ in range(target_words):
             # Vary word length based on semantic weight
@@ -105,8 +105,8 @@ class SanskritSumerianLanguage:
             length = max(2, min(8, length))
             words.append(self.generate_word(length))
 
-        # Join without spaces
-        return ''.join(words)
+        # Join WITH spaces between words
+        return ' '.join(words)
 
 
 class SanSumAlpha(SanskritSumerianLanguage):
