@@ -95,15 +95,6 @@ class SanskritSumerianLanguage:
 
         return word
 
-    def calculate_gematria(self, text: str) -> int:
-        """Calculate numerical value for text using phoneme-based gematria"""
-        value = 0
-        for char in text:
-            if char in self.consonants:
-                value += self.consonants.index(char) + 1
-            elif char in self.vowels:
-                value += self.vowels.index(char) + 10
-        return value
 
     def generate_phrase(self, target_words: int, semantic_weight: float = 1.0) -> str:
         """Generate a phrase with multiple words as continuous text"""
@@ -179,7 +170,7 @@ class SanSumDelta(SanskritSumerianLanguage):
 
 
 class BibleTranslator:
-    """Translates Bible verses into hybrid languages with mathematical constraints"""
+    """Translates Bible verses into hybrid languages"""
 
     def __init__(self, language_variant: SanskritSumerianLanguage):
         self.language = language_variant
@@ -218,20 +209,6 @@ class BibleTranslator:
 
         # Generate the continuous text
         translation = self.language.generate_phrase(word_count, semantic_weight)
-
-        # Apply gematria constraints for verse number alignment
-        verse_num = int(verse_ref.split(':')[-1])
-        target_gematria = verse_num * 37  # Sacred number multiplier
-
-        # Adjust if needed (up to 3 attempts)
-        for attempt in range(3):
-            current_gematria = self.language.calculate_gematria(translation)
-            if abs(current_gematria - target_gematria) < target_gematria * 0.3:
-                break
-            # Regenerate with adjusted parameters
-            word_count = word_count + (1 if current_gematria < target_gematria else -1)
-            word_count = max(3, word_count)
-            translation = self.language.generate_phrase(word_count, semantic_weight)
 
         # Add proper punctuation at the end
         if verse_text.endswith('?'):
@@ -316,7 +293,7 @@ def benchmark_languages():
             print(f"\n[Genesis 1:{i}]")
             print(f"Original: {verse}")
             print(f"Translation: {trans}")
-            print(f"Length: {len(trans)} chars | Gematria: {variant.calculate_gematria(trans)}")
+            print(f"Length: {len(trans)} chars")
 
         # Calculate metrics
         avg_length = total_length / len(test_verses)
