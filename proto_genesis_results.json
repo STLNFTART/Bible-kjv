@@ -1,0 +1,594 @@
+[
+  {
+    "proto_verse": "SH-L-R A-U-M S-Z-G D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "SH-L-R",
+        "language": "Aramaic",
+        "secondary": null,
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "S-Z-G",
+        "language": "Sumerian",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 8.269829134758945,
+    "language_sequence": [
+      "Aramaic",
+      "Sanskrit",
+      "Sumerian",
+      "English"
+    ],
+    "strategy": "Directional-Aramaic-to-English"
+  },
+  {
+    "proto_verse": "SH-L-R P-Q'A-U S-Z-G D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "SH-L-R",
+        "language": "Aramaic",
+        "secondary": null,
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "P-Q'A-U",
+        "language": "Quechua",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "S-Z-G",
+        "language": "Sumerian",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 8.401180616357408,
+    "language_sequence": [
+      "Aramaic",
+      "Quechua",
+      "Sumerian",
+      "English"
+    ],
+    "strategy": "Directional-Aramaic-to-English"
+  },
+  {
+    "proto_verse": "SH-L-R A-U-M K'-T'-X D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "SH-L-R",
+        "language": "Aramaic",
+        "secondary": null,
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "K'-T'-X",
+        "language": "YucatecMaya",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 8.46901232564171,
+    "language_sequence": [
+      "Aramaic",
+      "Sanskrit",
+      "YucatecMaya",
+      "English"
+    ],
+    "strategy": "Directional-Aramaic-to-English"
+  },
+  {
+    "proto_verse": "(.)-(:)'SH-L (.)-(:)'A-U (.)-(:)-(::) (.)-(:)'D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "(.)-(:)'SH-L",
+        "language": "Braille",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "(.)-(:)'A-U",
+        "language": "Braille",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "(.)-(:)-(::)",
+        "language": "Braille",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "(.)-(:)'D-F",
+        "language": "Braille",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 9.13532674116053,
+    "language_sequence": [
+      "Braille",
+      "Braille",
+      "Braille",
+      "Braille"
+    ],
+    "strategy": "Mono-Braille"
+  },
+  {
+    "proto_verse": "S-Z'SH-L B-R'A-U A-U-M D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "S-Z'SH-L",
+        "language": "Sumerian",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "B-R'A-U",
+        "language": "Hebrew",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 9.220383703524737,
+    "language_sequence": [
+      "Sumerian",
+      "Hebrew",
+      "Sanskrit",
+      "English"
+    ],
+    "strategy": "Directional-Sumerian-to-English"
+  },
+  {
+    "proto_verse": "B-R'SH-L SH-L'A-U A-U-M D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "B-R'SH-L",
+        "language": "Hebrew",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "SH-L'A-U",
+        "language": "Aramaic",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 9.657720654059773,
+    "language_sequence": [
+      "Hebrew",
+      "Aramaic",
+      "Sanskrit",
+      "English"
+    ],
+    "strategy": "Directional-Hebrew-to-English"
+  },
+  {
+    "proto_verse": "A-U'SH-L SH-L'A-U B-R-E D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "A-U'SH-L",
+        "language": "Sanskrit",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "SH-L'A-U",
+        "language": "Aramaic",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "B-R-E",
+        "language": "Hebrew",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 9.657720654059773,
+    "language_sequence": [
+      "Sanskrit",
+      "Aramaic",
+      "Hebrew",
+      "English"
+    ],
+    "strategy": "Directional-Sanskrit-to-English"
+  },
+  {
+    "proto_verse": "P-Q'SH-L SH-L'A-U S-Z-G (.)-(:)'D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "P-Q'SH-L",
+        "language": "Quechua",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "SH-L'A-U",
+        "language": "Aramaic",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "S-Z-G",
+        "language": "Sumerian",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "(.)-(:)'D-F",
+        "language": "Braille",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 9.669232250643226,
+    "language_sequence": [
+      "Quechua",
+      "Aramaic",
+      "Sumerian",
+      "Braille"
+    ],
+    "strategy": "Directional-Quechua-to-Braille"
+  },
+  {
+    "proto_verse": "B-R'SH-L K'-T''A-U A-U-M D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "B-R'SH-L",
+        "language": "Hebrew",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "K'-T''A-U",
+        "language": "YucatecMaya",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 9.85816168158717,
+    "language_sequence": [
+      "Hebrew",
+      "YucatecMaya",
+      "Sanskrit",
+      "English"
+    ],
+    "strategy": "Directional-Hebrew-to-English"
+  },
+  {
+    "proto_verse": "A-U'SH-L A-U-M A-U-M A-U'D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "A-U'SH-L",
+        "language": "Sanskrit",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "A-U-M",
+        "language": "Sanskrit",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "A-U'D-F",
+        "language": "Sanskrit",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 10.402737871039085,
+    "language_sequence": [
+      "Sanskrit",
+      "Sanskrit",
+      "Sanskrit",
+      "Sanskrit"
+    ],
+    "strategy": "Mono-Sanskrit"
+  },
+  {
+    "proto_verse": "P-Q'SH-L P-Q'A-U P-Q-T P-Q'D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "P-Q'SH-L",
+        "language": "Quechua",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "P-Q'A-U",
+        "language": "Quechua",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "P-Q-T",
+        "language": "Quechua",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "P-Q'D-F",
+        "language": "Quechua",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 10.493013170791468,
+    "language_sequence": [
+      "Quechua",
+      "Quechua",
+      "Quechua",
+      "Quechua"
+    ],
+    "strategy": "Mono-Quechua"
+  },
+  {
+    "proto_verse": "B-R'SH-L B-R'A-U B-R-E B-R'D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "B-R'SH-L",
+        "language": "Hebrew",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "B-R'A-U",
+        "language": "Hebrew",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "B-R-E",
+        "language": "Hebrew",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "B-R'D-F",
+        "language": "Hebrew",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 10.493013170791468,
+    "language_sequence": [
+      "Hebrew",
+      "Hebrew",
+      "Hebrew",
+      "Hebrew"
+    ],
+    "strategy": "Mono-Hebrew"
+  },
+  {
+    "proto_verse": "D-F'SH-L D-F'A-U D-F-S D-F-S",
+    "components": {
+      "time_marker": {
+        "proto_form": "D-F'SH-L",
+        "language": "English",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "D-F'A-U",
+        "language": "English",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "D-F-S",
+        "language": "English",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 10.816030998864752,
+    "language_sequence": [
+      "English",
+      "English",
+      "English",
+      "English"
+    ],
+    "strategy": "Mono-English"
+  },
+  {
+    "proto_verse": "S-Z'SH-L S-Z'A-U S-Z-G S-Z-G",
+    "components": {
+      "time_marker": {
+        "proto_form": "S-Z'SH-L",
+        "language": "Sumerian",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "S-Z'A-U",
+        "language": "Sumerian",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "S-Z-G",
+        "language": "Sumerian",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "S-Z-G",
+        "language": "Sumerian",
+        "secondary": null,
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 10.951021091374338,
+    "language_sequence": [
+      "Sumerian",
+      "Sumerian",
+      "Sumerian",
+      "Sumerian"
+    ],
+    "strategy": "Mono-Sumerian"
+  },
+  {
+    "proto_verse": "SH-L-R SH-L'A-U SH-L-R SH-L'D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "SH-L-R",
+        "language": "Aramaic",
+        "secondary": null,
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "SH-L'A-U",
+        "language": "Aramaic",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "SH-L-R",
+        "language": "Aramaic",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "SH-L'D-F",
+        "language": "Aramaic",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 11.185636582688712,
+    "language_sequence": [
+      "Aramaic",
+      "Aramaic",
+      "Aramaic",
+      "Aramaic"
+    ],
+    "strategy": "Mono-Aramaic"
+  },
+  {
+    "proto_verse": "K'-T''SH-L K'-T''A-U K'-T'-X K'-T''D-F",
+    "components": {
+      "time_marker": {
+        "proto_form": "K'-T''SH-L",
+        "language": "YucatecMaya",
+        "secondary": "Aramaic",
+        "concept": "In the beginning (t_0)"
+      },
+      "source_power": {
+        "proto_form": "K'-T''A-U",
+        "language": "YucatecMaya",
+        "secondary": "Sanskrit",
+        "concept": "The Powers (L_S Source)"
+      },
+      "action": {
+        "proto_form": "K'-T'-X",
+        "language": "YucatecMaya",
+        "secondary": null,
+        "concept": "Created (Action)"
+      },
+      "system_matrix": {
+        "proto_form": "K'-T''D-F",
+        "language": "YucatecMaya",
+        "secondary": "English",
+        "concept": "The System (D/F Matrix)"
+      }
+    },
+    "df_cost": 15.349189207568255,
+    "language_sequence": [
+      "YucatecMaya",
+      "YucatecMaya",
+      "YucatecMaya",
+      "YucatecMaya"
+    ],
+    "strategy": "Mono-YucatecMaya"
+  }
+]
